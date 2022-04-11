@@ -4,7 +4,7 @@
     "version": "1.0.0",
     "manifest_version": 3,
     "author": "takahiro",
-    "description": "transition from shorts to watch youtube url",
+    "description": "en : transition from shorts to watch youtube url. ja : shorts動画を通常のYoutube 動画UIで鑑賞します。",
     "background": {
         "service_worker": "content.js"
     },
