@@ -1,0 +1,17 @@
+{
+    "name": "from_shorts_to_watch",
+    "action": {},
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "author": "takahiro",
+    "description": "transition from shorts to watch youtube url",
+    "background": {
+        "service_worker": "content.js"
+    },
+    "host_permissions": ["https://www.youtube.com/"],
+    "permissions": [
+        "activeTab",
+        "tabs",
+        "scripting"
+    ]
+}
