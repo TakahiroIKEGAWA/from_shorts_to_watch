@@ -8,7 +8,7 @@
     "background": {
         "service_worker": "content.js"
     },
-    "host_permissions": ["https://www.youtube.com/"],
+    "host_permissions": ["https://www.youtube.com/shorts/"],
     "permissions": [
         "tabs",
         "scripting"
