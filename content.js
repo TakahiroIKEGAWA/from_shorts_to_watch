@@ -1,7 +1,7 @@
 const transition = () => {
     let from = location.href
     let to = from.replace('shorts', 'watch')
-    location.href = to
+    location.replace(to)
 }
 chrome.tabs.onUpdated.addListener(
     (tabId, info, tab) => {
